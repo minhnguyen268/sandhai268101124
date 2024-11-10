@@ -236,7 +236,7 @@ const TawkTo = () => {
               size="small"
               type="text"
               fullWidth
-              value={vips.find(vip => vip.level === level)?.url}
+              value={vips?.find(vip => vip.level === level)?.url}
               name={`vip-${level}`}
               onChange={(e) => {
                 setVips((state) => {
