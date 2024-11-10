@@ -144,7 +144,7 @@ const AccountInfo = ({ user }) => {
     getData();
   }, []);
 
-  const vipLogo = vipLogos.find(v => v.level === (user?.vipLevel ?? 0))?.url;
+  const vipLogo = vipLogos?.find(v => v.level === (user?.vipLevel ?? 0))?.url;
 
   return (
     <>
