@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import SettingService from "@/services/admin/SettingService";
 
 const TitleLeft = styled(Box)(({ theme }) => ({
-  backgroundColor: "#dbb579",
+  backgroundColor: "#dbb579", 
   height: "2.3rem",
   position: "absolute",
   top: "-12px",
