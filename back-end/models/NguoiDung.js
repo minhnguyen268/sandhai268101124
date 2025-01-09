@@ -80,7 +80,8 @@ const nguoiDungSchema = new mongoose.Schema(
     },
     referralCode: {
       type: String,
-      unique: true,
+      // unique: true,
+      default: null,
     },
     referralUserId: {
       type: mongoose.Schema.ObjectId,
